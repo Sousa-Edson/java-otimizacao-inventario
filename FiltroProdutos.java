@@ -28,6 +28,8 @@ public class FiltroProdutos {
         double precoMax = scanner.nextDouble();
 
         // TODO: Filtre os produtos pela faixa de preco usando Streams:
+        List<Produto> produtosFiltrados = produtos.stream().filter(
+                produto -> produto.preco >= precoMin && produto.preco <= precoMax).toList();
 
         for (Produto p : produtosFiltrados) {
             System.out.printf("Nome: %s - Preco: %.2f\n", p.nome, p.preco);
