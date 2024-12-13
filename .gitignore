@@ -1,0 +1,64 @@
+# Diretórios gerados pelo IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Arquivos de log do IntelliJ IDEA
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/libraries
+
+# Outras configurações específicas do IntelliJ IDEA
+.idea/modules.xml
+.idea/vcs.xml
+
+# Arquivos de compilação
+/out/
+target/
+build/
+
+# Diretórios e arquivos gerados por Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Diretórios e arquivos gerados por Gradle
+.gradle/
+build/
+
+# Arquivos de log
+*.log
+
+# Configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Configurações do sistema operacional (opcional)
+.vscode/
+*.swp
+*.swo
+
+# Dependências baixadas pelo Maven
+**/target/
+dependency-reduced-pom.xml
+
+# Configurações temporárias do JetBrains
+.idea/.name
+.idea/.gitignore
+.idea/vcs.xml
+.idea/misc.xml
+
+# Configurações de ambiente local
+.env
